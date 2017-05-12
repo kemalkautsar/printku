@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head>	
+	<title>Add New Print Project</title>
 	<?php require 'connection.php'; ?>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">

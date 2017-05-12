@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Printku Control Panel</title>
 	<meta charset="utf-8">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
