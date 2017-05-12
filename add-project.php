@@ -25,7 +25,6 @@
 
 	<div class="tab-content ">
 		<div class="tab-pane active" id="add-file">
-			<a href="add-project.php">New Print Project</a>
 			<form method="post" action="index.php">  
 			  	Tanggal Print: <input type="text" name="tanggal_print"><br>
 				Nama File: <input type="text" name="nama_file"><br>
