@@ -28,10 +28,10 @@
 						<th>Print ID</th> <th>Tanggal Print</th> <th>Nama File</th> <th>Pickup Location</th> <th>Status Print</th>
 					</tr>";
 
-				//code to populate the tables
-				while($row = mysqli_fetch_assoc($result)) {
-					echo "<tr> <td>" . $row["print_id"] . "</td> <td>" . $row["print_date"] . "</td> <td>" . $row["print_file"] . "</td> <td>" . $row["print_pickup"] . "</td><td>" . $row["print_status"] . "</td> </tr>";
-				}
+					//code to populate the tables
+					while($row = mysqli_fetch_assoc($result)) {
+						echo "<tr> <td>" . $row["print_id"] . "</td> <td>" . $row["print_date"] . "</td> <td>" . $row["print_file"] . "</td> <td>" . $row["print_pickup"] . "</td><td>" . $row["print_status"] . "</td> </tr>";
+					}
 
 				echo "</table>";
 			?>
