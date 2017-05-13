@@ -11,6 +11,14 @@
 
 <div class ="container">
 	<h1>Printku Customer Dashboard</h1>
+	<div class="col-sm-4">
+	</div>
+	<div class="col-sm-4">
+	</div>
+	<div class="col-sm-4">
+		<h4>Hi, Kemal</h4>
+		Saldo yang tersedia : <h2>Rp. 21.251</h2>
+	</div>
 	<ul class="nav nav-tabs">
 			<li class="active">
         		<a href="#dashboard" data-toggle="tab">Dashboard</a>
@@ -28,7 +36,7 @@
 		<div class="tab-pane active" id="dashboard">
 			<a href="add-project.php" class="btn btn-primary">New Print Project</a><br>
 			<?php
-				echo "<table>
+				echo "<div class='centerize'> <table>
 					<tr>
 						<th>Print ID</th> <th>Tanggal Print</th> <th>Nama File</th> <th>Pickup Location</th> <th>Status Print</th>
 					</tr>";
@@ -38,7 +46,7 @@
 						echo "<tr> <td>" . $row["print_id"] . "</td> <td>" . $row["print_date"] . "</td> <td>" . $row["print_file"] . "</td> <td>" . $row["print_pickup"] . "</td><td>" . $row["print_status"] . "</td> </tr>";
 					}
 
-				echo "</table>";
+				echo "</table></div>";
 			?>
 		</div>
 		<div class="tab-pane" id="billing">

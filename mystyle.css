@@ -46,6 +46,9 @@ tr:nth-child(odd) {
 }
 
 .centerize{
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  width: 100%;
+}
+.centerize > table{
+  margin: 0 auto;
 }
