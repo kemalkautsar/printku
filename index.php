@@ -9,11 +9,9 @@
 
 <body>
 
-<div class ="container">
-	<h1>Printku Customer Dashboard</h1>
-	<div class="col-sm-4">
-	</div>
-	<div class="col-sm-4">
+<div class ="container">	
+	<div class="col-sm-8">
+		<h1>Printku Customer Dashboard</h1>
 	</div>
 	<div class="col-sm-4">
 		<h4>Hi, Kemal</h4>
