@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>	
-	<title>Printku Control Panel</title>
+	<title>Printku Operator Control Panel</title>
 	<?php require 'connection.php'; ?>
 	<?php include 'header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
 <body>
-
 <div class ="container">
-	<h1>Printku Customer Dashboard</h1>
+	<h1>Printku Operator's Dashboard</h1>
 	<ul class="nav nav-tabs">
 			<li class="active">
         		<a href="#dashboard" data-toggle="tab">Dashboard</a>
-			</li>
-			<li>
-				<a href="#billing" data-toggle="tab">Billing</a>
 			</li>
 			<li>
 				<a href="#my-account" data-toggle="tab">My Account</a>
@@ -26,7 +22,6 @@
 
 	<div class="tab-content ">
 		<div class="tab-pane active" id="dashboard">
-			<a href="add-project.php">New Print Project</a>
 			<?php
 				echo "<table>
 					<tr>
@@ -40,9 +35,6 @@
 
 				echo "</table>";
 			?>
-		</div>
-		<div class="tab-pane" id="billing">
-			this section is supposed to be a billing page
 		</div>
 		<div class="tab-pane" id="my-account">
 			this section is supposed to be a user's account settings
