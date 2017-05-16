@@ -37,7 +37,7 @@
 						<td>Pickup Location :</td><td><input type="text" name="print_pickup"></td>
 					</tr>
 					<tr>
-						<td></td><td><input type="submit" value="Submit"></td>
+						<td></td><td><input class="btn btn-success" type="submit" value="Submit"></td>
 					</tr>
 			  	</table>
 			</form>
