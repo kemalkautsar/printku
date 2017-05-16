@@ -15,26 +15,23 @@
         		<a href="#add-file" data-toggle="tab">Add File</a>
 			</li>
 			<li>
-				<a href="#print-options" data-toggle="tab">Print Options</a>
-			</li>
-			<li>
-				<a href="#pick-ups" data-toggle="tab">Pick Ups</a>
+				<a href="#checkout" data-toggle="tab">Checkout</a>
 			</li>
 	</ul>
 	<br>
 
 	<div class="tab-content ">
 		<div class="tab-pane active" id="add-file">
-			<form method="post" action="conn_input.php">  
+			<form method="post" action="conn_input.php" class="centerize">  
 			  	<table>
 			  		<tr>
 			  			<td>Tanggal Print :</td><td><input type="date" name="print_date"></td>
 					</tr>
 					<tr>
-						<td>Nama File :</td><td><input type="text" name="print_file"></td>
+						<td>Nama File :</td><td><input type="text" name="print_file" required></td>
 					</tr>
 					<tr>
-						<td>Pickup Location :</td><td><input type="text" name="print_pickup"></td>
+						<td>Pickup Location :</td><td><input type="text" name="print_pickup" required=""></td>
 					</tr>
 					<tr>
 						<td></td><td><input class="btn btn-success" type="submit" value="Submit"></td>
@@ -42,11 +39,8 @@
 			  	</table>
 			</form>
 		</div>
-		<div class="tab-pane" id="print-options">
+		<div class="tab-pane" id="checkout">
 			this section is supposed to be a billing page
-		</div>
-		<div class="tab-pane" id="pick-ups">
-			this section is supposed to be a user's account settings
 		</div>
 	</div>
 </div>

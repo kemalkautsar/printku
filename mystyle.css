@@ -33,7 +33,7 @@ body {
   padding : 5px 15px;
 }
 
-> tr > th{
+tr > th{
   padding : 10px 20px;
 }
 
@@ -41,9 +41,10 @@ tr > td{
   padding : 10px 20px;
 }
 
-.main-table > tr:nth-child(odd) {
+.main-table > table > tbody > tr:nth-child(odd) {
   background: #CCC
 }
+
 
 .centerize{
   margin: 0 auto;

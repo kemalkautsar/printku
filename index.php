@@ -34,7 +34,7 @@
 		<div class="tab-pane active" id="dashboard">
 			<a href="add-project.php" class="btn btn-primary">New Print Project</a><br>
 			<?php
-				echo "<div class='centerize' style='margin-top:30px;'> <table class='main-table'>
+				echo "<div class='centerize main-table' style='margin-top:30px;'> <table>
 					<tr>
 						<th>Print ID</th> <th>Tanggal Print</th> <th>Nama File</th> <th>Pickup Location</th> <th>Status Print</th>
 					</tr>";

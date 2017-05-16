@@ -20,7 +20,7 @@ $p_file = mysql_real_escape_string($p_file);
 $p_pickup = mysql_real_escape_string($p_pickup);
 
 $query = "
-INSERT INTO `printku`.`myprint` (`print_id`, `print_date`, `print_file`, `print_status`, `print_pickup`) VALUES (NULL, '$p_date', '$p_file', '1', '$p_pickup');
+INSERT INTO `printku`.`myprint` (`print_id`, `print_date`, `print_file`, `print_status`, `print_pickup`) VALUES (NULL, '$p_date', '$p_file', 'in progress', '$p_pickup');
 ";
 
 mysql_query($query);

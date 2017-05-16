@@ -1,34 +1,7 @@
-<<<<<<< Updated upstream
 <?php
- 
 $servername = "localhost";
- 
 $username = "root";
- 
 $password = "root";
- 
-$dbname = "printku";
- 
- 
-// Create connection
- 
-$conn = mysqli_connect($servername, $username, $password, $dbname);
- 
- 
- 
-//selecting table
- 
-$sql = "SELECT * FROM myprint";
- 
-$result = mysqli_query($conn, $sql);
- 
- 
- 
-=======
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "";
 $dbname = "printku";
 
 // Create connection
@@ -43,5 +16,4 @@ if (mysqli_connect_errno())
 $sql = "SELECT * FROM myprint";
 $result = mysqli_query($conn, $sql);
 
->>>>>>> Stashed changes
 ?>
