@@ -26,7 +26,8 @@ INSERT INTO `printku`.`myprint` (`print_id`, `print_date`, `print_file`, `print_
 mysql_query($query);
 
 if(mysqli_query($conn, $query)){
-    echo "Records added successfully. <a>Back to Control Panel</a>";
+    //echo "Records added successfully. <a>Back to Control Panel</a>";
+    header('Location: index.php');
 } else{
     echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
 }

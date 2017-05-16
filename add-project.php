@@ -26,10 +26,20 @@
 	<div class="tab-content ">
 		<div class="tab-pane active" id="add-file">
 			<form method="post" action="conn_input.php">  
-			  	Tanggal Print: <input type="text" name="print_date"><br>
-				Nama File: <input type="text" name="print_file"><br>
-				Pickup Location: <input type="text" name="print_pickup"><br>
-				<input type="submit" value="Submit"> 
+			  	<table>
+			  		<tr>
+			  			<td>Tanggal Print :</td><td><input type="date" name="print_date"></td>
+					</tr>
+					<tr>
+						<td>Nama File :</td><td><input type="text" name="print_file"></td>
+					</tr>
+					<tr>
+						<td>Pickup Location :</td><td><input type="text" name="print_pickup"></td>
+					</tr>
+					<tr>
+						<td></td><td><input type="submit" value="Submit"></td>
+					</tr>
+			  	</table>
 			</form>
 		</div>
 		<div class="tab-pane" id="print-options">

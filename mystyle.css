@@ -33,7 +33,7 @@ body {
   padding : 5px 15px;
 }
 
-tr > th{
+> tr > th{
   padding : 10px 20px;
 }
 
@@ -41,7 +41,7 @@ tr > td{
   padding : 10px 20px;
 }
 
-tr:nth-child(odd) {
+.main-table > tr:nth-child(odd) {
   background: #CCC
 }
 
